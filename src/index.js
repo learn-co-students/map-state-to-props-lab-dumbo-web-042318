@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
+
 import manageBand from './reducers/manageBand';
+import App from './App';
 
 // we wrap store in a function for testing purposes
 export const configureStore = () => {
